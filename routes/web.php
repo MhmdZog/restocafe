@@ -11,6 +11,24 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('contactus', function () {
+    return view('contactus');
+});
+Route::get('aboutus', function () {
+    return view('aboutus');
+});
+Route::get('portfolio', function () {
+    return view('portfolio');
+});
+Route::get('pricing', function () {
+    return view('pricing');
+});
+Route::get('services', function () {
+    return view('services');
 });
