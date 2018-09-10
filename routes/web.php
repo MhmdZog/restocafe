@@ -16,19 +16,19 @@
 // });
 Route::get('/', function () {
     return view('index');
-});
-Route::get('contactus', function () {
-    return view('contactus');
-});
-Route::get('aboutus', function () {
-    return view('aboutus');
-});
+})->name('index');
+Route::get('contact', function () {
+    return view('contact');
+})->name('contact');
+Route::get('about', function () {
+    return view('about');
+})->name('about');
 Route::get('portfolio', function () {
     return view('portfolio');
-});
+})->name('portfolio');
 Route::get('pricing', function () {
     return view('pricing');
-});
+})->name('pricing');
 Route::get('services', function () {
     return view('services');
-});
+})->name('services');

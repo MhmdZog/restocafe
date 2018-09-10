@@ -88,6 +88,8 @@
 						<div id="success"> </div> <!-- For success/fail messages -->
 						<button type="submit" class="btn btn-primary waves-effect waves-dark pull-right">Send</button><br />
 
+
+
           </form>
 				</div>
 				<div class="col-md-6">
