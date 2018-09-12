@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('main')
 @section('content')
 <div id="wrapper">
     <!-- start header -->
@@ -15,7 +15,6 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li><a class="waves-effect waves-dark" href="{{route('index')}}">Home</a></li>
-
                         <li  class="active"><a class="waves-effect waves-dark" href="{{route('services')}}">Services</a></li>
                         <li><a class="waves-effect waves-dark" href="{{route('portfolio')}}">Gallery</a></li>
                         <li><a class="waves-effect waves-dark" href="{{route('pricing')}}">Pricing</a></li>
@@ -115,5 +114,4 @@
             </div> <!-- End Service Blcoks -->
         </div>
     </section>
-</div>
 @endsection

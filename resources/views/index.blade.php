@@ -1,5 +1,6 @@
-@extends('welcome')
+@extends('main')
 @section('content')
+<div id="wrapper" class="home-page">
     <header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -48,6 +49,8 @@
                     <div class="aligncenter"><h2 class="aligncenter">Signature Dishes</h2>
                     </div> <br/>
 
+
+
                 </div>
             </div>
             <div class="row service-v1 margin-bottom-40">
@@ -88,6 +91,8 @@
                     <div class="col-md-12">
                         <div class="aligncenter"><h2 class="aligncenter">We Offer</h2>
                         </div> <br/>
+
+
 
                     </div>
                 </div>
@@ -152,9 +157,11 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about-image"> <img src="img/about.jpg" alt="about Images">
 
+
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-@endsection
+    @endsection

@@ -14,7 +14,10 @@ body {
     font-size: 1.4em;
     background: #f7e2d8;
 }
-
+.editContent {
+    margin-left: 20px;
+    float: left;
+}
 a:active {
     outline: 0;
 }
@@ -755,7 +758,6 @@ section.hero-text h1 {
 /* page headline
 ==================================== */
 #inner-headline {
-    top: 60px;
     background: #de8c63;
     position: relative;
     margin: 0;

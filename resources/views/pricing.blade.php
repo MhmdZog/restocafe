@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('main')
 @section('content')
 <div id="wrapper">
     <!-- start header -->
@@ -96,5 +96,4 @@
             </div>
         </section>
     </section>
-</div>
 @endsection

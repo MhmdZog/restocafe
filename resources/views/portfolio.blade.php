@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('main')
 @section('content')
 <div id="wrapper">
     <!-- start header -->
@@ -39,19 +39,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="about-logo"> <h3>Our <span class="color">Gallery</span></h3>
-                        <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                            enim
-                            ipsam voluptatem quia voluptas</p>
-                        <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                            enim
-                            ipsam voluptatem quia voluptas</p>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
             </div>
         </div>
     </section> <!-- Start Gallery 1-2 -->
     <section id="gallery-1" class="content-block section-wrapper gallery-1">
-        <div class="container">
+        <div class="">
             <div class="editContent">
                 <ul class="filter">
                     <li class="active"><a href="#" data-filter="*">All</a></li>
@@ -154,5 +150,4 @@
         </div>
     </section>
     <!--// End Gallery 1-2 -->
-</div>
 @endsection
