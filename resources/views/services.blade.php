@@ -15,7 +15,7 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li><a class="waves-effect waves-dark" href="{{route('index')}}">Home</a></li>
-                        <li  class="active"><a class="waves-effect waves-dark" href="{{route('services')}}">Services</a></li>
+                        {{-- <li  class="active"><a class="waves-effect waves-dark" href="{{route('services')}}">Services</a></li> --}}
                         <li><a class="waves-effect waves-dark" href="{{route('portfolio')}}">Gallery</a></li>
                         <li><a class="waves-effect waves-dark" href="{{route('pricing')}}">Pricing</a></li>
                         <li><a class="waves-effect waves-dark" href="{{route('contact')}}">Contact</a></li>

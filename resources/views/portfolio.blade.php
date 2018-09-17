@@ -16,7 +16,7 @@
                     <ul class="nav navbar-nav">
                         <li><a class="waves-effect waves-dark" href="{{route('index')}}">Home</a></li>
 
-                        <li><a class="waves-effect waves-dark" href="{{route('services')}}">Services</a></li>
+                        {{-- <li><a class="waves-effect waves-dark" href="{{route('services')}}">Services</a></li> --}}
                         <li class="active"><a class="waves-effect waves-dark" href="{{route('portfolio')}}">Gallery</a></li>
                         <li><a class="waves-effect waves-dark" href="{{route('pricing')}}">Pricing</a></li>
                         <li><a class="waves-effect waves-dark" href="{{route('contact')}}">Contact</a></li>
@@ -45,9 +45,10 @@
                 </div>
             </div>
         </div>
-    </section> <!-- Start Gallery 1-2 -->
+    </section>
+     <!-- Start Gallery 1-2 -->
     <section id="gallery-1" class="content-block section-wrapper gallery-1">
-        <div class="">
+        <div class="container">
             <div class="editContent">
                 <ul class="filter">
                     <li class="active"><a href="#" data-filter="*">All</a></li>
@@ -57,13 +58,14 @@
                     <li><a class="waves-effect waves-dark" href="#" data-filter=".outside">Outside</a></li>
                     <li><a class="waves-effect waves-dark" href="#" data-filter=".photography">Photography</a></li>
                 </ul>
-            </div> <!-- /.gallery-filter -->
+            </div>
+             <!-- /.gallery-filter -->
             <div class="row">
                 <div id="isotope-gallery-container">
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
                         <div class="gallery-item">
-                            <div class="gallery-thumb"> <img src="img/works/1.jpg" class="img-responsive" alt="1st gallery Thumb">
-                                <div class="image-overlay"></div> <a href="img/works/1.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                            <div class="gallery-thumb"> <img src="{{asset('img/works/1.jpg')}}" class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div> <a href="{{asset('img/works/1.jpg')}}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                             </div>
                             <div class="gallery-details">
                                 <div class="editContent"> <h5>1st gallery Item</h5>
@@ -76,8 +78,8 @@
                     </div> <!-- /.gallery-item-wrapper -->
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature outside">
                         <div class="gallery-item">
-                            <div class="gallery-thumb"> <img src="img/works/2.jpg" class="img-responsive" alt="2nd gallery Thumb">
-                                <div class="image-overlay"></div> <a href="img/works/2.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                            <div class="gallery-thumb"> <img src="{{asset('img/works/2.jpg')}}" class="img-responsive" alt="2nd gallery Thumb">
+                                <div class="image-overlay"></div> <a href="{{asset('img/works/2.jpg')}}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                             </div>
                             <div class="gallery-details">
                                 <div class="editContent"> <h5>2nd gallery Item</h5>
@@ -90,8 +92,8 @@
                     </div> <!-- /.gallery-item-wrapper -->
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper photography artwork">
                         <div class="gallery-item">
-                            <div class="gallery-thumb"> <img src="img/works/3.jpg" class="img-responsive" alt="3rd gallery Thumb">
-                                <div class="image-overlay"></div> <a href="img/works/3.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                            <div class="gallery-thumb"> <img src="{{asset('img/works/3.jpg')}}" class="img-responsive" alt="3rd gallery Thumb">
+                                <div class="image-overlay"></div> <a href="{{asset('img/works/3.jpg')}}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                             </div>
                             <div class="gallery-details">
                                 <div class="editContent"> <h5>3rd gallery Item</h5>
@@ -104,8 +106,8 @@
                     </div> <!-- /.gallery-item-wrapper -->
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper creative nature">
                         <div class="gallery-item">
-                            <div class="gallery-thumb"> <img src="img/works/4.jpg" class="img-responsive" alt="4th gallery Thumb">
-                                <div class="image-overlay"></div> <a href="img/works/4.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                            <div class="gallery-thumb"> <img src="{{asset('img/works/4.jpg')}}" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div> <a href="{{asset('img/works/4.jpg')}}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                             </div>
                             <div class="gallery-details">
                                 <div class="editContent"> <h5>4th gallery Item</h5>
@@ -118,8 +120,8 @@
                     </div> <!-- /.gallery-item-wrapper -->
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature">
                         <div class="gallery-item">
-                            <div class="gallery-thumb"> <img src="img/works/5.jpg" class="img-responsive" alt="5th gallery Thumb">
-                                <div class="image-overlay"></div> <a href="img/works/5.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                            <div class="gallery-thumb"> <img src="{{asset('img/works/5.jpg')}}" class="img-responsive" alt="5th gallery Thumb">
+                                <div class="image-overlay"></div> <a href="{{asset('img/works/5.jpg')}}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                             </div>
                             <div class="gallery-details">
                                 <div class="editContent"> <h5>5th gallery Item</h5>
@@ -132,8 +134,8 @@
                     </div> <!-- /.gallery-item-wrapper -->
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
                         <div class="gallery-item">
-                            <div class="gallery-thumb"> <img src="img/works/6.jpg" class="img-responsive" alt="6th gallery Thumb">
-                                <div class="image-overlay"></div> <a href="img/works/6.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                            <div class="gallery-thumb"> <img src="{{asset('img/works/6.jpg')}}" class="img-responsive" alt="6th gallery Thumb">
+                                <div class="image-overlay"></div> <a href="{{asset('img/works/6.jpg')}}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                             </div>
                             <div class="gallery-details">
                                 <div class="editContent"> <h5>6th gallery Item</h5>

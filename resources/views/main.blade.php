@@ -48,7 +48,7 @@
                 </div>
             </div>
         </footer>
-    </div> 
+    </div>
     <a href="#" class="scrollup waves-effect waves-dark"><i class="fa fa-angle-up active"></i></a> <!-- javascript    ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ asset('js/jquery.js') }}"></script>

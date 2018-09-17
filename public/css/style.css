@@ -14,10 +14,10 @@ body {
     font-size: 1.4em;
     background: #f7e2d8;
 }
-.editContent {
+/* .editContent {
     margin-left: 20px;
     float: left;
-}
+} */
 a:active {
     outline: 0;
 }
